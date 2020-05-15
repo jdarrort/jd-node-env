@@ -27,5 +27,3 @@ try {
 } catch(e) {
     console.warn("Failed to get secrets ");
 }
-console.log(secrets);
-console.log(process.env);
