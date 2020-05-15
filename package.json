@@ -1,0 +1,19 @@
+{
+  "name": "jd-node-env",
+  "version": "1.0.0",
+  "description": "Lib to regroup both env vars and docker secrets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdarrort/jd-node-env.git"
+  },
+  "author": "J.Darrort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdarrort/jd-node-env/issues"
+  },
+  "homepage": "https://github.com/jdarrort/jd-node-env#readme"
+}
