@@ -6,7 +6,7 @@ try {
     fs.readdirSync( SECRET_PATH )
     .forEach( f => {
         if (typeof process.env[f] === "undefined") { 
-            process.env[f] = fs.readFileSync(path.join(SECRET_PATH, f)).trim(); 
+            process.env[f] = fs.readFileSync(path.join(SECRET_PATH, f)).toString('utf-8').trim();
         }
     });
 } catch(e) {
