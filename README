@@ -1,0 +1,8 @@
+
+
+# Manage  Docker Secrets for Node process
+Load Docker secrets stored in /run/secrets into env vars accessible via process.env
+
+Priority to user defined env vars.
+
+
